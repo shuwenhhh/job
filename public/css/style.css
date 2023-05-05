@@ -164,10 +164,10 @@ hr {
 }
 .btn-custom {
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* text-transform: uppercase; */
+  color: #000000;
+  background-color: #fecc4f;
+  background-image: linear-gradient(to right, #fecc4f 0%, #f9c54b 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -184,7 +184,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #fecc4f;
 }
 .btn:active,
 .btn.active {
@@ -193,6 +193,30 @@ hr {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+.btn-upCustom {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #000000;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+.btn-upCustom:hover,
+.btn-upCustom:focus,
+.btn-upCustom.focus,
+.btn-upCustom:active,
+.btn-upCustom.active {
+  color: #fecc4f;
+  background-image: none;
+  background-color: #000000;
+}
+
 a:focus,
 .btn:focus,
 .btn:active:focus,
@@ -226,6 +250,8 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  text-align: left;
+  
 }
 .intro h1 span {
   font-weight: 800;
@@ -242,7 +268,7 @@ a:focus,
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
-  text-align: center;
+  text-align: left;
 }
 /* Features Section */
 #features {

@@ -1,5 +1,5 @@
 {
-  "name": "landingpage-react-template",
+  "name": "job",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -31,5 +31,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "version": "1.22.19",
+  "description": "none",
+  "main": "index.js",
+  "repository": "https://github.com/shuwenhhh/job.git",
+  "author": "cc <chengcheng0441@gmail.com>",
+  "license": "MIT"
 }
